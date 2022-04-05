@@ -89,7 +89,10 @@ Section no.14 Address: Object-Oriented Programming (OOP) With JavaScript
 
 ### Type: Code
 
-- check the code examples in final folder, notes on code
+- Watch the video
+- Use set and get keywords in an object litteral before a method to make calculations on an property and treat the method as a property when using it in code.
+- In classes it works the same way as in object litteral.
+- Use setter and getters for validation check video at 6:00.
 
 ## Lecture no.215 Address: Static Methods
 
