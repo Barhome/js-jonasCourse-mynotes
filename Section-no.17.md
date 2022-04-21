@@ -32,7 +32,7 @@ Section no.17 Address: Modern JavaScript Development: Modules, Tooling, and func
 - Theory pdf pages 220-224
 - We will learn about modules in more depth and how they work behind the scenes as they play a very important role in modern software development.
 - module definition is in pdf. it sounds a bit like a function or a class but is usually a standalone file. it's not always the case but mostly when we think of a module we think of a separate file.
-- it has imports and exports and module code. With exports we export values out of a module. for example simple values or even entire functions. Whatever we export from a module is called the public API. This is like classes where we can also expose a public API for other code to consume.
+- It has imports and exports and module code. With exports we export values out of a module. for example simple values or even entire functions. Whatever we export from a module is called the public API. This is like classes where we can also expose a public API for other code to consume.
 - Now, in case of modules, this public API is actually consumed by importing values into a module. so, just like we export values in modules, we can usually also import values from other modules. and these other modules from which we import are called dependencies because the code in our module can't work without the code that is in the external module we are importing from. This pattern is in all programming languages.
 - the reason why we use modules are in pdf pages plus these reason starts to appear when we are working on large projects as the code base starts to grow more and more.
 - Modules specifically in JS in second slide in pdf file.
@@ -55,7 +55,7 @@ Section no.17 Address: Modern JavaScript Development: Modules, Tooling, and func
 
 ### Type: Code
 
-- check the code examples in final folder, notes on code
+- check the code examples in final folder, notes on code (script.js and shoppingCart.js)
 - we will use modules in practice, to make sure that we understand how they work and to import and export values between them.
 - first scenario, importing a module without importing any value, we will create a shoppingCart.js module it is convention to use camel case names.
 - inside script.js which is the importing module and shoppingCart.js the exporting module. we need to specify the type attribute to be module in html file where we link script.js.

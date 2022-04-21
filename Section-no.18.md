@@ -58,14 +58,18 @@
 - The Model-View-Controller(MVC)architecture, basically, it contains three big parts. View for the presentation logic, the part where the application is interacting for the user. Model is about the application data so that's why it usually contains the state and also the business logic that manipulates the state the model also contains http librarry that might get some data from the web like from API and some backend and this is also about the data so it is also goes to the model. Finally the controller is what it contains the application logic and it is kind of a bridge between the model and the view which in fact should know nothing about each other. So the model and the view will exist completely independent from one another, and not event knowing that the other one exist, so basically the big goal of the MVC pattern is to actually separate business logic from application logic which makes developing the application so much easier but as a consequence we need something to connect these two parts and that is the controller.
 - see example at 10:30 in the video
 
-## Lecture no.227 Address: Lifecycle DOM Events
+## Lecture no.293 Address: Helpers and Configuration Files
 
 ### Type: Code
 
-- check the code examples in final folder, notes on code
+- Watch the video
+- Many Real world applications have two special modules that are completely independent of the rest of the architecture. These are a module for the project configuration and also a module for some general helper functions that are gonna be helpful across the entire project.In this lecture we implement these two modules.
+- in config.js we will basically put all the variables that should be constants and should be reused across the project.The goal of having this file with all these variables is that it will allow us to easily configure our project by simply changing some of the data that is here in the config.js file so, of course we will not put all the variables here we will only put the variables that are responsible for kind of defining some important data about the application itself. an example is like the api url so this url here we will actually reuse in multiple places for example for getting search data and also for uploading a recipe to the server so imagine this url needs to change at some point so that will be easy to do that in one place. All the letters of the variable names in the config file is uppercase as a common practice espcially for constants defined in config file.
 
-## Lecture no.227 Address: Lifecycle DOM Events
+## Lecture no.294 Address: Event handlers in MVC: Publisher-Subscriber Pattern
 
-### Type: Code
+### Type:Theory and Code
 
-- check the code examples in final folder, notes on code
+- Theroy pdf pages 246-248
+-
+- watch video for implementation at 7:38
