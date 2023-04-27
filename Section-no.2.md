@@ -102,7 +102,7 @@
 - white values in console means it is a string value.
 - JS only converts to strings and numbers and booleans when it comes to primitive values.
 - only plus + operator makes type coersion from number to a string not the opposite and concatinates them
-- - and astricks`*` and / operators make type coersion from "string-like-a-number" to number and substract the numbers or multiply or divide.
+- minus "-" and astricks`*` and / operators make type coersion from "string-like-a-number" to number and substract the numbers or multiply or divide.
 
 ## Lecture no.21 Address: Truthy and Falsy Values
 

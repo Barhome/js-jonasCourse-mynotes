@@ -61,7 +61,7 @@
 ### Type:Code
 
 - check code in final folder of section 3
-- you can mutate arrays elements not whole array when they declared with const because of the way Java scripts stores thing is memory and they are not primitive data type as only primitive data types are immutable
+- you can mutate arrays elements not whole array when they declared with const because of the way Java scripts stores things in memory and they are not primitive data type as only primitive data types are immutable
 - it can hold different data types and you can put an array inside of an array.
 
 ## Lecture no.40 Address: Basic Arrays Operations(Methods)
